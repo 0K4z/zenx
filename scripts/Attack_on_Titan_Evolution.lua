@@ -4,7 +4,7 @@
 repeat wait(1) until game:IsLoaded()
 
 if getgenv().Settings.LeaveTimer == nil then
-    getgenv().Settings.LeaveTimer = 600
+    getgenv().Settings.LeaveTimer = 900
 end
 
 function log(message, type)
